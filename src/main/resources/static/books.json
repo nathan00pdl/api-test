@@ -1,0 +1,53 @@
+[
+    {
+      "titulo": "Clean Code",
+      "autor": "Robert C. Martin",
+      "area": "Desenvolvimento de Software",
+      "imagem": "https://images-na.ssl-images-amazon.com/images/I/41xShlnTZTL._SX374_BO1,204,203,200_.jpg",
+      "editora": "Prentice Hall",
+      "data_de_lancamento": "11 de agosto de 2008",
+      "ano_de_publicacao": 2008,
+      "isbn": "978-0132350884"
+    },
+    {
+      "titulo": "The Pragmatic Programmer",
+      "autor": "Andrew Hunt, David Thomas",
+      "area": "Desenvolvimento de Software",
+      "imagem": "https://images-na.ssl-images-amazon.com/images/I/41as+WafrFL._SX415_BO1,204,203,200_.jpg",
+      "editora": "Addison-Wesley Professional",
+      "data_de_lancamento": "20 de outubro de 1999",
+      "ano_de_publicacao": 1999,
+      "isbn": "978-0201616224"
+    },
+    {
+      "titulo": "Introduction to Algorithms",
+      "autor": "Thomas H. Cormen, Charles E. Leiserson, Ronald L. Rivest, Clifford Stein",
+      "area": "Algoritmos e Estruturas de Dados",
+      "imagem": "https://images-na.ssl-images-amazon.com/images/I/51cKnsB4vbL._SX258_BO1,204,203,200_.jpg",
+      "editora": "MIT Press",
+      "data_de_lancamento": "31 de julho de 2009",
+      "ano_de_publicacao": 2009,
+      "isbn": "978-0262033848"
+    },
+    {
+      "titulo": "Design Patterns: Elements of Reusable Object-Oriented Software",
+      "autor": "Erich Gamma, Richard Helm, Ralph Johnson, John Vlissides",
+      "area": "Desenvolvimento de Software",
+      "imagem": "https://images-na.ssl-images-amazon.com/images/I/51kBzL59yQL._SX380_BO1,204,203,200_.jpg",
+      "editora": "Addison-Wesley",
+      "data_de_lancamento": "10 de outubro de 1994",
+      "ano_de_publicacao": 1994,
+      "isbn": "978-0201633610"
+    },
+    {
+      "titulo": "Code: The Hidden Language of Computer Hardware and Software",
+      "autor": "Charles Petzold",
+      "area": "Computação",
+      "imagem": "https://images-na.ssl-images-amazon.com/images/I/41uPjEenkFL._SX402_BO1,204,203,200_.jpg",
+      "editora": "Microsoft Press",
+      "data_de_lancamento": "11 de outubro de 1999",
+      "ano_de_publicacao": 1999,
+      "isbn": "978-0735611313"
+    }
+  ]
+  
