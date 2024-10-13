@@ -1,7 +1,5 @@
 package com.example.api_test.Domain;
 
-import com.fasterxml.jackson.annotation.JsonProperty;
-
 import lombok.AllArgsConstructor;
 import lombok.NoArgsConstructor;
 
@@ -14,8 +12,6 @@ public class Book {
     public String imagem;
     public String editora;
     public String data_de_lancamento;
-    @JsonProperty("Ano de Publicação")
     public String ano_de_publicacao;
     public String isbn;
-
 }

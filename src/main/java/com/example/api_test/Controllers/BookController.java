@@ -11,18 +11,24 @@ import com.example.api_test.Domain.Book;
 import com.example.api_test.Services.BookService;
 
 @RestController
-@RequestMapping("/api/books")
+@RequestMapping("/api/books")  //definição do endpoint (rota base para todas as requisições)
 public class BookController {
 
     private BookService service;
 
+    //Injeção de Dependência via construtor 
     public BookController(BookService service){
         this.service = service;
     }
 
-    @GetMapping("")
+    @GetMapping("") //método acionado quando cliente fizer uma requisição HTTP GET em /"api/books"
     public  ResponseEntity<List<Book>> getBooks(){
-        List<Book> books = this.service.getBooksFromLibrary(); 
+        List<Book> books = service.getBooksFromLibrary(); 
+
+        if (books == null || books.isEmpty()) {
+            return ResponseEntity.noContent().build();
+        }
+
         return ResponseEntity.ok().body(books);
     }
 }
