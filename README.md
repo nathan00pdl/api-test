@@ -8,12 +8,29 @@ Inicialmente, acompanhei a construção desse projeto com base no vídeo https:/
 
 Em suma, a API retorna uma lista de livros de programação, em que ss dados desses livros são derivados de um arquivo JSON armazenado em uma pasta local. Em vez de buscar informações de uma API externa ou serviço na nuvem, a aplicação lê o arquivo JSON local, converte-o para uma lista de objetos Java e disponibiliza esses dados através de um endpoint da API.
 
+
+
 # Estruturação do projeto 
 ## Implementação por camadas
-###Book
-- Book
-- BookController
-- BookService
+Book
+- Modelo ou domínio para representar os dados de um livro.
+
+BookController
+- Atua como o ponto de entrada da API para as requisições relacionadas aos livros
+- Define um endpoint que, ao ser acessado, chama o serviço para obter a lista de livros e retorna os dados em formato JSON
+- Utiliza práticas recomendadas de injeção de dependência e manipulação de respostas HTTP
+
+BookService
+- Serviço para obter uma lista de livros a partir de um arquivo JSON localizado no sistema de arquivos local
+- Utiliza o ObjectMapper da biblioteca Jackson para fazer a desserialização do conteúdo JSON em objetos Java, os quais serão retornados pela API
+  
+  
+
+
+
+
+
+
   
 ## Requisições web
 - Insomnia
