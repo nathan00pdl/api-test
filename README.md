@@ -31,7 +31,7 @@ BookService
 - Testing requests with GET method.
 
 
-### Contact author
+### Contact with me
 
 Nathan Paiva de Lacerda
 
