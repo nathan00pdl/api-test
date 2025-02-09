@@ -6,7 +6,7 @@ This project was distributed under the **MIT** license.
 
 [![NPM](https://img.shields.io/npm/l/react)](https://github.com/nathan00pdl/Projeto2_Java_Spring/blob/main/LICENSE) 
 
-# About the project
+# About the Project
 Thsi is a basic project for pesonal study purposes regarding the operation and, mainly, the implementation of an **API** (Application Programming Interface) from its beginning.
 
 Initialy, I followed the construction of this project based on the video **https://www.youtube.com/watch?v=MuF_jkfdqUo** by developer **Fernanda Kipper**, however the JSON request containing the book information was made by cloud services from **AWS**, so I chose to do something simpler, with local data access.
