@@ -13,7 +13,7 @@ Initialy, I followed the construction of this project based on the video **https
 
 In short, the API returns a list of books, where the data for these books is derived from a JSON file stored in a local folder. Instead of fetching information from an external API or cloud service, the application reads the local JSON file, converts it to list of java objects, and make this data available through an API endpoint.
 
-# Project structure
+# Project Structure
 
 ## Layered implementation
 **Book**
