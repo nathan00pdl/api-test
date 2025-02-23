@@ -5,7 +5,7 @@
 This project is licensed under **MIT** license. See the `LICENSE` file for more informations. 
 
 
-[![NPM](https://img.shields.io/npm/l/react)](https://github.com/nathan00pdl/Projeto2_Java_Spring/blob/main/LICENSE) 
+[![NPM](https://img.shields.io/npm/l/react)](https://github.com/nathan00pdl/api-test/blob/main/LICENSE) 
 
 # About the Project
 Thsi is a basic project for pesonal study purposes regarding the operation and, mainly, the implementation of an **API** (Application Programming Interface) from its beginning.
